@@ -1,0 +1,260 @@
+/* ================ 1250px ================== */
+
+@media (max-width: 1250px){
+    .featuares .table{
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        max-width: 70%;
+       
+        margin: 0 auto;
+    }
+   
+   .featuares .table div img{
+           width: 100%;
+   }
+
+   .featuares .table .text{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 20px;
+   }
+
+}
+   
+
+
+@media (max-width :1020px){
+    .featuares .table{
+     max-width: 90%;
+ 
+    }    
+    .hero-sec h1{
+        font-size: 51px;
+    }
+
+    .hero-sec p{
+        text-align: center;
+    }
+    .heading{
+        text-align: center;
+    }
+    
+
+    .title{
+        font-size: 35px;
+    }
+}
+
+.footer-component-1, .footer-component-4,
+.footer-component-2, .footer-component-3{
+  width: 50%;
+  
+}
+
+
+/* =============== 950px =================== */
+
+@media (max-width: 950px){
+    .title, .hero-sec h1{
+        text-align: center;
+    }
+    .hero-sec{
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+    }
+
+    .hero-sec .btn{
+        width: 100%;
+        justify-content: center;
+    }
+    .hero-sec-left{
+       flex: 50%;
+       position: relative;
+       top: 40px;
+      }
+
+      .good-quality{
+         
+        right: 90px;
+        top: 400px;
+       
+      }
+      .rating{
+        left: 80px;
+        top: 480px;
+      }
+
+    .header-bottom{
+        margin-top: 130px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 40px;
+    }
+    .btn{
+        margin: 0 auto;
+    }
+
+      .hero-sec-right{
+         flex:50%;
+          
+      }
+      .service-area{
+
+     
+        grid-template-columns: repeat(2, 1fr) ;
+        gap: 20px;
+      }
+      .service-card{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+      .benefit-area{
+        flex-direction: column;
+        gap: 50px;
+     }
+      .benefit-sec-left{
+        flex: 100%;
+      
+   }
+ 
+   .benefit-sec-right{
+        flex: 100%
+   }
+
+   .stars-area{
+    flex-direction: column;
+    gap: 50px;
+   }
+   .product .product-cards{
+ 
+    grid-template-columns: repeat(2, 1fr);
+ 
+}
+.contact-area .text h1{
+    font-size: 35px;
+}
+.footer-top{
+    flex-wrap: wrap;
+}
+.featuares .table{
+
+   
+    grid-template-columns: repeat(1, 1fr);
+     max-width: 60%;
+}
+.featuares .table .img{
+    width: 94%;
+    margin: 0 auto;
+}
+.featuares .table .text{
+    text-align: left;
+}
+.featuares .table .text button{
+    align-self: left;
+    margin-left: 0;
+}
+.featuares .table div:nth-child(5){
+order: 6;
+}
+.get-in-touch input{
+    width: 80%;
+}
+
+
+}
+/* ================ 800px ==================== */
+@media (max-width: 800px){
+    .toggle{
+        display: block;
+        cursor: pointer;
+    }
+    .menu-list{
+        position: fixed;
+        top:70px;
+        z-index: 1;
+        height: 0;
+        overflow: hidden;
+        transition: .5s ease-in-out;
+        right: 30px;
+       
+    }
+    .menu-list ul{
+        flex-direction: column;
+        backdrop-filter: blur(10px);
+        padding: 60px;
+        border-radius: 10px;
+        align-items: center;
+        gap: 25px;
+        background-color: rgba(0, 0, 0, 0.282)
+    }
+
+    .menu-list ul li a{
+        color: white;
+    }
+    .active .header-area .menu-list{
+        height: 330px;
+    }
+}
+
+
+/* =============== 700px =================== */
+@media(max-width: 700px){
+
+    .featuares .table{
+ 
+         max-width: 100%;
+    }
+   
+
+
+.contact .contact-area{
+    width: 100%;
+   
+}
+
+.contact-area .text h1{
+    margin: 5px;
+}
+
+ .contact .btn{
+    padding: 10px 20px;
+    
+ }
+ .footer-component-1, .footer-component-4,
+.footer-component-2, .footer-component-3{
+  width: 100%;
+  
+}
+
+    .footer-top{
+        flex-direction: column;
+       
+    }
+ 
+      .product .product-cards{
+ 
+        grid-template-columns: repeat(1, 1fr);
+     
+    }
+    .product-count{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .stars-sec-left .btn{
+        width: 100%;
+        justify-content: center;
+        gap: 60px;
+    }
+    .get-in-touch input{
+        width: 80%;
+    }
+
+    
+}
