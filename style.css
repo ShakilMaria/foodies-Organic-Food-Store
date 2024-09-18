@@ -172,10 +172,14 @@
 
          .hero-sec-right{
             flex: 40%;
-            position: relative;
+    
          }
-         .hero-sec-right img{
-            position: relative;
+
+         .hero-sec-right div{
+          position: relative;
+         }
+         .hero-sec-right .main-img{
+           position: relative;
             float: right;
             bottom: -100px;
             display: block;
@@ -235,11 +239,13 @@
             padding: 40px 0;
             border-top: 2px solid rgba(0, 0, 0, 0.075);
             border-bottom: 2px solid rgba(0, 0, 0, 0.075);
+            align-items: center;
             
        }
        .service-card{
             display: flex;
             align-items: center;
+            justify-content: center;
             gap: 20px;
        }
        .service-card h3{
@@ -373,6 +379,10 @@
 
        }
 
+       .featuares .table img{
+          width: 100%;
+       }
+
        .featuares .table .text{
             border: 1px solid var(--primary-g);
             background-color: var(--secondary-g);
@@ -491,7 +501,9 @@
           margin: 0 auto;
      }
    
-
+   .contact-area img{
+     width: 100%;
+   }
      .contact-area .text{
           position: absolute;
           top: 50%;
