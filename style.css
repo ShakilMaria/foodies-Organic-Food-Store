@@ -170,17 +170,14 @@
            position: relative;
          }
 
-         .hero-sec-right{
-            flex: 40%;
-    
-         }
+       
 
-         .hero-sec-right div{
+         .hero-sec-right{
           position: relative;
          }
          .hero-sec-right .main-img{
            position: relative;
-            float: right;
+           
             bottom: -100px;
             display: block;
          }
@@ -204,7 +201,7 @@
       }
 
       .good-quality{
-           top: 30%;
+           top: 40%;
            right: -20%;
       }
 
@@ -214,7 +211,7 @@
       }
 
       .polcadot{
-         bottom: 0;
+         bottom: -100px;
          right: -30px;
       }
       .header-bottom{
