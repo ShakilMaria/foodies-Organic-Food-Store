@@ -107,7 +107,7 @@
         /* ---- =========== Global end ============ */
 
        /* -- ============== header start =============== - */
-         .header-top-area{
+         .header-area{
          
             background-color: var(--secondary-g);
           
@@ -214,7 +214,7 @@
          bottom: -100px;
          right: -30px;
       }
-      .header-bottom{
+      .brand{
             display: flex;
             margin-top: 30px;
             gap: 4%;

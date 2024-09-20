@@ -53,7 +53,7 @@
   width: 50%;
   
 }
-
+ 
 
 /* =============== 950px =================== */
 
@@ -79,16 +79,18 @@
 
       .good-quality{
          
-        right: 120px;
-        top: 600px;
+        right: 20%;
+        top: 100%;
+        z-index: 1;
        
       }
       .rating{
-        left: 110px;
-        top: 540px;
+        left: 20%;
+        top: 90%;
+        z-index: 1;
       }
 
-    .header-bottom{
+    .brand{
         margin-top: 130px;
         flex-wrap: wrap;
         justify-content: space-around;
